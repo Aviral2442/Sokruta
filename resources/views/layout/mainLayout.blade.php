@@ -43,5 +43,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 {{-- aos animation js file --}}
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+{{-- gsap js file  --}}
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 
 </html>

@@ -1,0 +1,81 @@
+:root {
+    --black-clr: #000;
+    --white-clr: #fff;
+
+    --fs-big-text: 24px;
+    --fs-main-heading: 24px;
+    --fs-primary-text: 14px;
+    --fs-secondary-text: 10px;
+
+    --ff-heading: "FuturaDemiCRegular", sans-serif;
+    --ff-primary: "RobotoRegular", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utilities */
+
+.big_text {
+    font-size: var(--fs-big-text);
+    font-family: var(--ff-heading);
+    color: var(--black-clr);
+    line-height: 170px;
+}
+
+.main_heading {
+    font-size: var(--fs-main-heading);
+    font-family: var(--ff-heading);
+    color: var(--black-clr);
+    line-height: 36px;
+}
+
+.primary_text {
+    font-size: var(--fs-primary-text);
+    font-family: var(--ff-primary);
+    color: var(--black-clr);
+    line-height: 22px;
+}
+
+.secondary_text {
+    font-size: var(--fs-secondary-text);
+    font-family: var(--ff-primary);
+    color: var(--black-clr);
+    line-height: 18px;
+}
+
+/* 2. utilities */
+/* cta buttons */
+/* arrow buttons */

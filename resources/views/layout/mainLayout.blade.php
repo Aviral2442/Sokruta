@@ -12,7 +12,16 @@
 </head>
 
 <body>
-    <h1 style="text-align: center; font-weight:700">Sokruta</h1>
+    
+    {{-- include main header --}}
+    @include('includes.header')
+
+    {{-- include main content --}}
+    @yield('main')
+
+    {{-- include main footer --}}
+    @include('includes.footer')
+
 </body>
 
 {{-- bootstrap v5.3 js cdn file --}}
